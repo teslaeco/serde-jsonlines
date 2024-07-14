@@ -1,0 +1,38 @@
+["Video ai GPU automation", "TextSession", "AutomatScore", "VideoCompleted"
+["Cube", "M6 six walls meter⁶", 6, true]
+["Cube", "M3 tree walls meter³", 3, false] 
+["AlvideoAi", "8", +-+-++--=8, true]
+["AlvideoAi", "8",+-+-++--=7 , false] 
+["Ring", "360°", 360÷2÷2÷2÷2÷2÷2÷2÷2÷2=0,703125..., false]
+["Ring", "512°", 512÷2÷2÷2÷2÷2÷2÷2÷2÷2=1, true] 
+{ "Cube" :  "M6 six walls meter" ,  "wins" :  [[ "walls" ,  "6🔬" ],  [ "one pair" ,  "4 corner ♥" ]]} 
+{ "AlvideoAi" :  "8" ,  "wins" :  [[ "one pair" ,  "8🔬" ],  [ "two pair" ,  "4🔬" ]]} 
+{ "Ring" :  "512°" ,  "wins" :  []} 
+{ "Jsonlx" :  "experimental" ,  "wins" :  [[ "" ,  "1⚡" ]]}
+grep pair winning_hands.jsonl | jq .
+{ 
+  "Cube" :  "M6 six walls meter" ,  
+  "wins" :  [ 
+    [ 
+      "walls" ,  
+      "6🔬" 
+    ],  
+    [ 
+      "one pair" ,  
+      "4 corner♥" 
+    ] 
+  ] 
+} 
+{ 
+  "Ring" :  "512°" ,  
+  "wins" :  [ 
+    [ 
+      "One pair" ,  
+      "8🔬" 
+    ],  
+    [ 
+      "Two pair" ,  
+      "4🔬" 
+    ] 
+  ] 
+}
